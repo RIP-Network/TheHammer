@@ -36,8 +36,8 @@ global a
 a = 1
 def load_words(WORDLIST_FILENAME):
        global line
-       print("Starting BruteForce Attack...")
-       print("Working...")
+       print("Empezando ataque fuerza bruta...")
+       print("Funcionando...")
        wordlist = list()
        with open(WORDLIST_FILENAME) as f:
             for line in f:
